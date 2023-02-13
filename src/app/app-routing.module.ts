@@ -11,7 +11,8 @@ import { SellerHomeComponent } from './pages/seller-home/seller-home.component';
 
 
 const routes: Routes = [
-  {path:'home',component:HomeComponent},
+  {path:'',component:HomeComponent},
+
 {path:'seller-add',component:SellerAddPComponent,canActivate:[AuthGuard]},
   {path:'seller-auth',component:SellerAuthComponent},
   { component:SellerHomeComponent,path:'seller-home' ,canActivate:[AuthGuard]},

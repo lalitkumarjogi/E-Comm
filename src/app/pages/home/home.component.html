@@ -1,0 +1,29 @@
+<ngb-carousel *ngIf="images">
+	<ng-template ngbSlide>
+		<div class="picsum-img-wrapper">
+			<img class="product-image" [src]="images[0]" alt="Random first slide" />
+		</div>
+		<div class="carousel-caption">
+			<h2> Lenovo</h2>
+			<p>One of the best laptop in the World </p>
+		</div>
+	</ng-template>
+	<ng-template ngbSlide>
+		<div class="picsum-img">
+			<img class="product" src="https://cdn1.smartprix.com/rx-ifbFIHsjy-w1200-h1200/fbFIHsjy.jpg" alt="Random second slide" />
+		</div>
+		<div class="carousel-caption">
+			<h2>Apple Mobile</h2>
+			<p>Top Model Mobile Series.</p>
+		</div>
+	</ng-template>
+	<ng-template ngbSlide>
+		<div class="picsum-img-wrapper">
+			<img class="id" src="https://images.samsung.com/in/smartphones/galaxy-s22-ultra/images/galaxy-s22-ultra_highlights_kv_img.jpg" alt="Random third slide" />
+		</div>
+		<div class="carousel-caption">
+			<h2>Samsang S22</h2>
+			<p>Best Functionailty Mobile in Samsang Series</p>
+		</div>
+	</ng-template>
+</ngb-carousel>

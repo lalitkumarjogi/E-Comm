@@ -18,4 +18,7 @@ export class ProductService {
   deleteproduct(id:number){
    return this.http.delete('http://localhost:3000/products/${id}')
   }
+  popularproducts(){
+    return this.http.get<product[]>('http://localhost:3000/products/?_limit=3');
+  }
 }

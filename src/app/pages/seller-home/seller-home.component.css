@@ -2,6 +2,7 @@ table{
     text-align: left;
     color: blueviolet;
     border-collapse: collapse;
+    margin-left: 20px;
 }
 table td,table th{
     border:  1px solid blueviolet;
@@ -11,4 +12,8 @@ table td,table th{
 img{
     width: 100px;
     height: 100px;
+}
+h1{
+    margin-left: 20px;
+    color: blueviolet;
 }

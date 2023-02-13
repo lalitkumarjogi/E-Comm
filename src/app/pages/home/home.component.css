@@ -2,3 +2,29 @@ h1{
     text-align: center;
     margin-top: 30px;
 }
+.product-image{
+    object-fit: contain;
+    height: 600px;
+    width: 100%;
+    margin-top: 30px;
+}
+.product{
+
+    object-fit: contain;
+    height: 600px;
+    width: 100%;
+}
+.id{
+    object-fit: contain;
+    height: 600px;
+    width: 100%;
+}
+h2{
+    color: black;
+    margin-bottom: 2px;
+    
+}
+p{
+    color: white;
+    margin-bottom: 1px;
+}
