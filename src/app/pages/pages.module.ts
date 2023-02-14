@@ -9,6 +9,7 @@ import { SellerHomeComponent } from './seller-home/seller-home.component';
 import { HomeComponent } from './home/home.component';
 import { SellerAddPComponent } from './seller-add-p/seller-add-p.component'
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { UserAuthComponent } from './user-auth/user-auth.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     SellerAuthComponent,
     SellerHomeComponent,
     HomeComponent,
-    SellerAddPComponent
+    SellerAddPComponent,
+    UserAuthComponent
   ],
   exports:[
     HeaderComponent,

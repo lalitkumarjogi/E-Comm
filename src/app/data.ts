@@ -16,3 +16,4 @@ export  interface product{
      image:string
      id:number
 }
+

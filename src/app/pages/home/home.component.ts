@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { product } from 'src/app/data';
 import { ProductService } from 'src/app/service/product.service';
 
 @Component({
@@ -9,13 +10,15 @@ import { ProductService } from 'src/app/service/product.service';
 export class HomeComponent {
   images = [944, 984, 984].map((n) => `https://cdn1.smartprix.com/rx-i4U4FAoxX-w1200-h1200/4U4FAoxX.jpg`);
  
-
+  trendyproduct:undefined|product[]
   constructor (private product:ProductService){}
   ngOnInIt(){
     this.product.popularproducts().subscribe((data)=>{
   console.log(data)
     })
+   
+
+    }
   }
 
 
-}
