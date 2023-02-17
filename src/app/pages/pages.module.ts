@@ -10,7 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { SellerAddPComponent } from './seller-add-p/seller-add-p.component'
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { UserAuthComponent } from './user-auth/user-auth.component';
-
+import  { ReactiveFormsModule} from '@angular/forms'
 @NgModule({
   declarations: [
     HeaderComponent,
@@ -23,7 +23,7 @@ import { UserAuthComponent } from './user-auth/user-auth.component';
   exports:[
     HeaderComponent,
     HomeComponent,
-    SellerAuthComponent,SellerHomeComponent
+    SellerAuthComponent,SellerHomeComponent,ReactiveFormsModule
   ],
   imports: [
     CommonModule,
