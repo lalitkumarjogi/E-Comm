@@ -7,6 +7,8 @@ import { product } from '../data';
 })
 export class ProductService {
 
+  myCart:any [] = [];
+
   constructor(private http :HttpClient) { }
   addproduct(data:product){
  

@@ -3,7 +3,7 @@
     <div *ngIf="menuType==='default'"class="nav-s">
         <input type="text" placeholder="Enter the Products">
         <button>Search</button>
-        <ul class="result">
+        <ul class="result" *ngIf="searchresult">
             <li *ngFor="let item  as searchresult">
                 <a>{{item.name}}</a> </li>
         </ul>
