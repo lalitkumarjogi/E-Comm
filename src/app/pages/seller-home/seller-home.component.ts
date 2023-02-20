@@ -26,6 +26,7 @@ delete(id:number){
   if(result){
   this.productMessage="Product is delete";
   this.list()
+  
   }
  })
  

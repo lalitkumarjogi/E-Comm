@@ -32,7 +32,7 @@ export class SellerService {
     console.log(data)
     //api call code will be
 
-    this.http.get('http://localhost:3000/seller?email= ${data.email}      &password=${data.password} ',
+    this.http.get('http://localhost:3000/seller?email= ${data.email}&password=${data.password} ',
     { observe: 'response' }
     ).subscribe((result:any)=>{
       console.log(result)

@@ -10,12 +10,15 @@ body{
     color: blueviolet;
     margin-left: 20px;
     font-size: 40px;
+    margin-top: 10px;
 }
 .nav ul{
     display: inline-flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    margin-top: 10px
+
 
 }
 .nav li{
@@ -34,6 +37,8 @@ body{
     display:  flex;
     margin-left: 5%;
     margin-right: 5%;
+    margin-top: 15px;
+
 }
 .nav .nav-s input{
     flex: 2;
@@ -41,6 +46,7 @@ body{
     border: 2px solid blueviolet;
     height:  35px;
     border-right: 1px; 
+
 }
 .nav .nav-s button{
     color: blueviolet;
